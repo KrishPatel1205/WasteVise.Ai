@@ -5,7 +5,7 @@ import requests
 from collections import Counter
 from ultralytics import YOLO
 
-model_path = "my_model/my_model.pt"
+model_path = "./my_model.pt"
 model = YOLO(model_path)
 
 def load_image(image_path): 
