@@ -6,7 +6,7 @@ from ultralytics import YOLO
 import os
 
 # Load YOLO model
-model_path = "my_model/my_model.pt"
+model_path = "./my_model.pt"
 model = YOLO(model_path)
 
 def detect_food_ingredients(frame):
